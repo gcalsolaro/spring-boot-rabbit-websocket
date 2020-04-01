@@ -32,7 +32,7 @@ The technology stack used is provided by Spring, in particular:
 ## Prerequisites
 * **_JDK 8_** - Install JDK 1.8 version
 * **_Maven_** - Download latest version
-* **_RabbiMQ Server_** - 3.8.3
+* **_RabbitMQ Server_** - 3.8.3
 
 ## Running Instructions
 
