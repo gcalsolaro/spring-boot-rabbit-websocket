@@ -39,9 +39,10 @@ The technology stack used is provided by Spring, in particular:
 ### Installing RabbitMQ Server
 - Download and install latest version of [RabbitMQServer](https://www.rabbitmq.com/)
 - Enable Management console from shell
+
 		- `rabbitmq-plugins enable rabbitmq_management`
-		-  you can access it through the url [http://localhost:15672/](http://localhost:15672/) (default credential: guest/guest)
 - Enable STOMP Endpoint installing plugin from shell:
+		
 		- `rabbitmq-plugins enable rabbitmq_stomp`
 		- `rabbitmq-plugins enable rabbitmq_web_stomp`
 
