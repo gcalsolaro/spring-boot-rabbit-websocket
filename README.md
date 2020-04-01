@@ -40,11 +40,12 @@ The technology stack used is provided by Spring, in particular:
 - Download and install latest version of [RabbitMQServer](https://www.rabbitmq.com/)
 - Enable Management console from shell
 
-		- `rabbitmq-plugins enable rabbitmq_management`
+		rabbitmq-plugins enable rabbitmq_management
+
 - Enable STOMP Endpoint installing plugin from shell:
 		
-		- `rabbitmq-plugins enable rabbitmq_stomp`
-		- `rabbitmq-plugins enable rabbitmq_web_stomp`
+		rabbitmq-plugins enable rabbitmq_stomp
+		rabbitmq-plugins enable rabbitmq_web_stomp
 
 ### Run Application
 - Start Client and Server Application
