@@ -1,0 +1,22 @@
+server:
+    port: 8082
+    
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    requested-heartbeat: 580
+    cache:
+      channel:
+        size: 25
+    virtual-host: /
+  main:
+    allow-bean-definition-overriding: true
+    
+example:
+  rabbitmq:
+    queue: notificationQueue
+    exchange: amq.topic
+    routingkey: 'n1.#.*'

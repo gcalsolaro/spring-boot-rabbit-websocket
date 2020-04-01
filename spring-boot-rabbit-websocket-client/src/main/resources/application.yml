@@ -1,0 +1,25 @@
+server:
+    port: 8083    
+    
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    requested-heartbeat: 580
+    cache:
+      channel:
+        size: 25
+    virtual-host: /
+  freemarker:
+    template-loader-path:
+    - classpath:/templates
+    suffix: .ftl
+  main:
+    allow-bean-definition-overriding: true
+    
+example:
+  rabbitmq:
+    queue: notificationQueue
+      
